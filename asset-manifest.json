@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-02-phonebook/static/css/main.5a07ad6e.css",
+    "main.css": "/goit-react-hw-02-phonebook/static/css/main.ca1975b4.css",
     "main.js": "/goit-react-hw-02-phonebook/static/js/main.ddfe11ab.js",
     "static/media/abstract-uv-ultraviolet-light-composition.jpg": "/goit-react-hw-02-phonebook/static/media/abstract-uv-ultraviolet-light-composition.31dc8058a5eab37d9ec7.jpg",
     "index.html": "/goit-react-hw-02-phonebook/index.html",
-    "main.5a07ad6e.css.map": "/goit-react-hw-02-phonebook/static/css/main.5a07ad6e.css.map",
+    "main.ca1975b4.css.map": "/goit-react-hw-02-phonebook/static/css/main.ca1975b4.css.map",
     "main.ddfe11ab.js.map": "/goit-react-hw-02-phonebook/static/js/main.ddfe11ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a07ad6e.css",
+    "static/css/main.ca1975b4.css",
     "static/js/main.ddfe11ab.js"
   ]
 }
