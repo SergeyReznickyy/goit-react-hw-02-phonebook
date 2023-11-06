@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-hw-02-phonebook/static/js/main.07d3183d.js",
+    "main.css": "/goit-react-hw-02-phonebook/static/css/main.5a07ad6e.css",
+    "main.js": "/goit-react-hw-02-phonebook/static/js/main.ddfe11ab.js",
+    "static/media/abstract-uv-ultraviolet-light-composition.jpg": "/goit-react-hw-02-phonebook/static/media/abstract-uv-ultraviolet-light-composition.31dc8058a5eab37d9ec7.jpg",
     "index.html": "/goit-react-hw-02-phonebook/index.html",
-    "main.7acaea2f.css.map": "/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/goit-react-hw-02-phonebook/static/js/main.07d3183d.js.map"
+    "main.5a07ad6e.css.map": "/goit-react-hw-02-phonebook/static/css/main.5a07ad6e.css.map",
+    "main.ddfe11ab.js.map": "/goit-react-hw-02-phonebook/static/js/main.ddfe11ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.5a07ad6e.css",
+    "static/js/main.ddfe11ab.js"
   ]
 }
