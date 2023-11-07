@@ -22,10 +22,9 @@ export const ContactForm = ({ onSubmit }) => {
 
   const handleChange = event => {
     const { name, value } = event.target;
-    setFormData(prevState => ({
-      ...prevState,
+    setFormData({
       [name]: value,
-    }));
+    });
   };
 
   const handleSubmit = event => {
