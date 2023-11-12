@@ -18,12 +18,14 @@ export const ContactForm = ({ onSubmit }) => {
     name: '',
     number: '',
   });
+
   const [errors, setErrors] = useState({});
 
   const handleChange = event => {
     const { name, value } = event.target;
-    setFormData({
-      [name]: value,
+
+    setFormData(prevState => {
+      return { ...prevState, [name]: value };
     });
   };
 
@@ -37,6 +39,7 @@ export const ContactForm = ({ onSubmit }) => {
         setErrors({});
       })
       .catch(error => {
+        console.log(formData);
         const validationErrors = {};
         error.inner.forEach(err => {
           validationErrors[err.path] = err.errors[0];

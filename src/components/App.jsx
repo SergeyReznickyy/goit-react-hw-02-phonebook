@@ -17,6 +17,7 @@ export class App extends Component {
   };
 
   formSubmitHandle = data => {
+    console.log(data);
     const { contacts } = this.state;
     if (contacts.some(contact => contact.name === data.name)) {
       alert(`${data.name} is already in contacts.`);
@@ -30,6 +31,7 @@ export class App extends Component {
   handleChangeFilter = event => {
     const { name, value } = event.currentTarget;
     this.setState({ [name]: value });
+    console.log('Filter Value:', value);
   };
 
   onFiltredСontacts = () => {
